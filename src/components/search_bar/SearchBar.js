@@ -1,14 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./searchbar.styles.css";
 
 const SearchBar = ({ placeholder, onChange }) => {
-  //   const [text, setText] = useState("");
-
-  //   const onChange = e => {
-  //     setText(e.target.value);
-
-  //   };
-
   return (
     <div>
       <input
